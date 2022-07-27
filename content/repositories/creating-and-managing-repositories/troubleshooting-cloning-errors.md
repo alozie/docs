@@ -77,6 +77,8 @@ Alternatively, you can change the URL through our
 
 To access {% data variables.product.prodname_dotcom %}, you must authenticate with a personal access token instead of your password. For more information, see "[Creating a personal access token](/github/authenticating-to-github/creating-a-personal-access-token)."
 
+If already using a personal access token, ensure that the top-level `repo` scope is selected in order to access repositories from the command line.
+
 {% data reusables.command_line.provide-an-access-token %}
 
 ### Check your permissions
